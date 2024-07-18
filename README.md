@@ -1,2 +1,2 @@
-# photographer
-landing page for the photographer
+# css-module
+Визуальные эффекты на CSS JS HTML

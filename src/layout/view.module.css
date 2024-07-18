@@ -8,12 +8,16 @@
 }
 
 body{
-    height: 100%;
+   
     line-height: 1;
     font-size: 16px;
     color: black;
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
 }
 a{
     transition: 2s;
@@ -55,19 +59,23 @@ li{
     max-width: 1600px;
     position: relative;
     left: 0;
+
+
     top: 0;
-    min-height: 100%;
-    overflow: hidden;
     flex: 1 0 auto;
+  
+  
 }
 
 /* ///////////////////////////////////////////////header///////////////////////////////////////////////////////////////// */
 .header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 100;
 
-
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
 
 }
 .header_menu{
@@ -76,6 +84,7 @@ li{
 .header_container{
    
 }
+
 .menu_list{
     margin: 20px 0px;
     display: flex;
@@ -89,6 +98,9 @@ li{
 }
 .header_container{
     display: block;
+    height: 100vh;
+
+    
 }
 @media(max-width:600px){
 
@@ -101,10 +113,49 @@ li{
 }
 
 /* ///////////////////////////////////////////////header///////////////////////////////////////////////////////////////// */
+.page{
+   
+}
+.portfolio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
 
+}
+.tarif{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+.me{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+
+}
+.otzav{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+   
+
+}
 /* ///////////////////////////////////////////////footer///////////////////////////////////////////////////////////////// */
 .footer{
     flex-shrink: 0;
+    /* height: 100vh; */
+   
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
   
 }
 .footer a{

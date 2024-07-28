@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import styles from './view.module.css';
 import Template_footer from "./footer";
 import Menu from './Menu/menu';
-import Slider from "../components/slider"
+import Slider from "../components/slider/slider"
+import Portfolio from "../components/portfolio/portfolio"
 import { Link, Element } from 'react-scroll';
 
 const View = () => {
@@ -18,7 +19,7 @@ const View = () => {
         <main class={styles.page}>
             <Slider/>
             <div id="portfolio" className={styles.portfolio}>
-                <h2><a href="#portfolio">Портфолио</a></h2>
+                <Portfolio/>
             </div>
             <div id="tarif" className={styles.tarif}>
                 <h2>Тарифы</h2>

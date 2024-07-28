@@ -1,0 +1,27 @@
+
+.menu{
+ 
+}
+
+.menu_list{
+display: flex;
+}
+.menu_list li{
+ margin-left: 10px;
+}
+.menu_item{
+    margin-left: 25px;
+}
+
+.container_photos{
+
+}
+
+.false_{
+    color: black;
+}
+
+.true_{
+    color: rgb(255, 0, 123);
+}
+

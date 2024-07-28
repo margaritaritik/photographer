@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {BrowserRouter as Router, Route, useRoutes} from "react-router-dom";
 import Main from "./layout/view";
+import './style.css'
 
 
 

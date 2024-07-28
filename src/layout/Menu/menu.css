@@ -27,8 +27,9 @@ body {
   transition: color 0.2s;
 }
 
-.bm-item:hover {
+.bm-item:active .bm-menu-wrap {
   color: white;
+  background-color: aqua;
 }
 
 .bm-burger-button {
@@ -84,3 +85,8 @@ body {
     height: 20px;
     background-color: red;
 }
+
+a#react-burger-cross-btn:active .bm-menu-wrap{
+color: red !important;
+}
+

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './view.module.css';
-import Template_footer from "./footer";
+// import Template_footer from "./footer";
 import Menu from './Menu/menu';
 import Slider from "../components/slider/slider"
 import Portfolio from "../components/portfolio/portfolio"
@@ -34,7 +34,7 @@ const View = () => {
         
 
         <footer class={styles.footer}>
-            <Template_footer/>
+            {/* <Template_footer/> */}
         </footer>
     </div>
 

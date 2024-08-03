@@ -1,6 +1,6 @@
 
 .menu{
- 
+ margin-top: 40px;
 }
 
 .menu_list{
@@ -14,6 +14,13 @@ display: flex;
 }
 
 .container_photos{
+    margin-top: 20px;
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 
 }
 
@@ -22,6 +29,15 @@ display: flex;
 }
 
 .true_{
-    color: rgb(255, 0, 123);
+    color: rgb(255, 0, 123) !important;
+}
+.photos_all{
+width: 200px;
 }
 
+.photos_made{
+    width: 300px;
+}
+.photos_not{
+    width: 400px;
+}

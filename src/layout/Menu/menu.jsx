@@ -26,12 +26,18 @@ const MenuHeader = () => {
       
       
   <Menu>
-     
-                        <a href='#me' id="react-burger-cross-btn">ОБО МНЕ</a>
+ 
+        <a id="home" className="menu-item" href="#">Home</a>
+        <a id="about" className="menu-item" href="#me">About</a>
+        <a id="contact" className="menu-item" href="#me">Contact</a>
+       
+  
+{/*      
+                        <a href='#me'>ОБО МНЕ</a>
                         <a href='#me'>ПОРТФОЛИО</a>             
                         <a href='#me'>ТАРИФЫ</a>
                         <a href='#me'>ОТЗЫВЫ</a>
-                        <a href='#me'>КОНТАКТЫ</a>  
+                        <a href='#me'>КОНТАКТЫ</a>   */}
                       
     </Menu></div> </header>
     

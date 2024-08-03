@@ -24,15 +24,15 @@ a{
     text-decoration: none;
     color: #48041d;
 }
-a:hover {
+/* a:hover {
     background: linear-gradient(
             to right,
-            rgba(10, 50, 90, 0.64) 30%,
-            rgba(31, 29, 72, 0.64) 45%,
-            rgb(2, 28, 85) 50%,
-            rgb(96, 120, 175) 55%,
-            rgb(11, 25, 65) 60%,
-            rgb(6, 51, 76) 65%
+            rgb(255, 255, 255) 30%,
+            rgb(255, 255, 255) 45%,
+            rgb(255, 255, 255) 50%,
+            rgb(251, 231, 247) 55%,
+            rgb(251, 251, 251) 60%,
+            rgb(255, 255, 255) 65%
     );
     background-size: 200% auto;
     -webkit-background-clip: text;
@@ -43,11 +43,8 @@ a:hover {
 @keyframes flow {
     to{background-position: 200% center}
 
-}
+} */
 
-a:active {
-    top: 5px;
-}
 
 li{
     list-style-type: none;
@@ -123,7 +120,7 @@ li{
 
 }
 .tarif{
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;

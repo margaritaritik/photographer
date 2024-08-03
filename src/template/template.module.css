@@ -1,0 +1,14 @@
+.logo_footer img{
+    width: 100%;
+    max-width: 200px;
+}
+.container_columns_footer{
+    display: flex;
+}
+
+.footer_col h2{
+ font-weight: bold;
+}
+.footer_cols{
+    display: flex;
+}
